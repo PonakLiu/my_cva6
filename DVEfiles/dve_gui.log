@@ -1,0 +1,19 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Apr 14 11:27 2023
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/home/z/code/my_cva6/inter.vpd' was opened successfully.
+.sdb'
+'
+'
+'
+.sdb'
+dve> 
+dve> 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.370 seconds;       Data structure size:   0.9Mb
+Fri Apr 14 11:29:12 2023
+Loading db file '/home/z/program/Synopsys/vcs2018/gui/dve/libraries/syn/genericLoading db file '/home/z/program/Synopsys/vcs2018/gui/dve/libraries/syn/vcs.sdbLoading db file '/home/z/program/Synopsys/vcs2018/gui/dve/libraries/syn/vcs.sdbLoading db file '/home/z/program/Synopsys/vcs2018/gui/dve/libraries/syn/vcs.sdbLoading db file '/home/z/program/Synopsys/vcs2018/gui/dve/libraries/syn/genericUpdating preference file: /home/z/.synopsys_dve_prefs.tcl

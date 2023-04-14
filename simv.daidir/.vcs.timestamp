@@ -1,0 +1,222 @@
+10       
+0 common_cells/registers.svh
+0 /home/z/program/Synopsys/vcs2018/etc/systemverilog/common_cells/registers.svh
+0 ex_trace_item.svh
+0 /home/z/program/Synopsys/vcs2018/etc/systemverilog/ex_trace_item.svh
+0 vendor/pulp-platform/common_cells/include/ex_trace_item.svh
+0 vendor/pulp-platform/common_cells/src/ex_trace_item.svh
+0 instr_trace_item.svh
+0 /home/z/program/Synopsys/vcs2018/etc/systemverilog/instr_trace_item.svh
+0 vendor/pulp-platform/common_cells/include/instr_trace_item.svh
+0 vendor/pulp-platform/common_cells/src/instr_trace_item.svh
+33
++itf+/home/z/program/Synopsys/vcs2018/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc-4.8
+-Mcfl= -pipe -fPIC -O -I/home/z/program/Synopsys/vcs2018/include
+-Mcplusplus=g++-4.8
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/z/program/Synopsys/vcs2018/linux64/lib/libvirsim.so /home/z/program/Synopsys/vcs2018/linux64/lib/liberrorinf.so /home/z/program/Synopsys/vcs2018/linux64/lib/libsnpsmalloc.so /home/z/program/Synopsys/vcs2018/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/z/program/Synopsys/vcs2018/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/z/program/Synopsys/verdi2016/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/z/program/Synopsys/vcs2018/include
+-P
+-assert
+-debug_acc+all
+-f Flist.test
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-sverilog
+-top
+/home/z/program/Synopsys/vcs2018/linux64/bin/vcs1
+/home/z/program/Synopsys/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+cva6
+svaext
+40
+sysc_uni_pwd=/home/z/code/my_cva6
+_P9K_TTY=/dev/pts/5
+ZSH=/home/z/.oh-my-zsh
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=23
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/z/program/Synopsys/verdi2016
+VCS_MODE_FLAG=64
+VCS_HOME=/home/z/program/Synopsys/vcs2018
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/z/program/Synopsys/vcs2018/linux64
+SYN_HOME=/home/z/program/Synopsys/syn2016
+SSH_TTY=/dev/pts/5
+SSH_CONNECTION=10.11.116.131 51195 10.11.117.117 22
+SSH_CLIENT=10.11.116.131 51195 22
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS=  -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/z/program/Synopsys/scl11.11
+P9K_TTY=old
+P9K_SSH=1
+OVA_UUM=0
+MOTD_SHOWN=pam
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/5
+MAKE_TERMERR=/dev/pts/5
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESS=-R
+LC_ALL=C
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+CPATH=/usr/include/x86_64-linux-gnu
+0
+127
+1679496250 common/local/util/instr_trace_item.svh
+1679496250 common/local/util/ex_trace_item.svh
+1679496250 vendor/pulp-platform/common_cells/include/common_cells/registers.svh
+1551421448 /home/z/program/Synopsys/vcs2018/etc/sva/rec_ltl_classes_package.svp
+1679496250 core/mmu_sv32/cva6_shared_tlb_sv32.sv
+1679496250 core/mmu_sv32/cva6_tlb_sv32.sv
+1679496250 core/mmu_sv32/cva6_ptw_sv32.sv
+1679496250 core/mmu_sv32/cva6_mmu_sv32.sv
+1679496250 core/mmu_sv39/tlb.sv
+1679496250 core/mmu_sv39/ptw.sv
+1679496250 core/mmu_sv39/mmu.sv
+1679496250 common/local/util/sram.sv
+1679496250 vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+1679496250 common/local/util/tc_sram_wrapper.sv
+1679496250 common/local/util/instr_tracer.sv
+1679496250 common/local/util/instr_tracer_if.sv
+1679496250 core/pmp/src/pmp_entry.sv
+1679496250 core/pmp/src/pmp.sv
+1679496250 core/cache_subsystem/std_nbdcache.sv
+1679496250 core/cache_subsystem/std_cache_subsystem.sv
+1679496250 core/cache_subsystem/cva6_icache_axi_wrapper.sv
+1679496250 core/cache_subsystem/cache_ctrl.sv
+1679496250 core/cache_subsystem/miss_handler.sv
+1679496250 core/cache_subsystem/axi_adapter.sv
+1679496250 core/cache_subsystem/tag_cmp.sv
+1679496250 core/cache_subsystem/wt_axi_adapter.sv
+1679496250 core/cache_subsystem/wt_cache_subsystem.sv
+1679496250 core/cache_subsystem/cva6_icache.sv
+1679496250 core/cache_subsystem/wt_dcache.sv
+1679496250 core/cache_subsystem/wt_dcache_wbuffer.sv
+1679496250 core/cache_subsystem/wt_dcache_missunit.sv
+1679496250 core/cache_subsystem/wt_dcache_mem.sv
+1679496250 core/cache_subsystem/wt_dcache_ctrl.sv
+1679496250 core/frontend/frontend.sv
+1679496250 core/frontend/instr_queue.sv
+1679496250 core/frontend/instr_scan.sv
+1679496250 core/frontend/ras.sv
+1679496250 core/frontend/bht.sv
+1679496250 core/frontend/btb.sv
+1679496250 core/axi_shim.sv
+1679496250 core/commit_stage.sv
+1679496250 core/store_unit.sv
+1679496250 core/amo_buffer.sv
+1679496250 core/store_buffer.sv
+1679496250 core/scoreboard.sv
+1679496250 core/re_name.sv
+1681442537 core/ariane_regfile_fpga.sv
+1679496250 core/ariane_regfile_ff.sv
+1679496250 core/perf_counters.sv
+1679496250 core/serdiv.sv
+1679496250 core/multiplier.sv
+1679496250 core/mult.sv
+1679496250 core/lsu_bypass.sv
+1679496250 core/load_store_unit.sv
+1679496250 core/load_unit.sv
+1679496250 core/issue_stage.sv
+1679496250 core/issue_read_operands.sv
+1679496250 core/id_stage.sv
+1679496250 core/instr_realign.sv
+1679496250 core/ex_stage.sv
+1679496250 core/decoder.sv
+1679496250 core/csr_regfile.sv
+1679496250 core/csr_buffer.sv
+1679496250 core/controller.sv
+1679496250 core/compressed_decoder.sv
+1679496250 core/branch_unit.sv
+1679496250 core/fpu_wrap.sv
+1679496250 core/alu.sv
+1679496250 core/cva6.sv
+1679496250 core/ariane.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/preprocess_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/nrbd_nrsc_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/norm_div_sqrt_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/iteration_div_sqrt_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/div_sqrt_top_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/control_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpu_div_sqrt_mvp/hdl/defs_div_sqrt_mvp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_top.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_rounding.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_opgroup_multifmt_slice.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_opgroup_fmt_slice.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_opgroup_block.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_noncomp.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_fma.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_fma_multi.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_divsqrt_multi.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_classifier.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_cast_multi.sv
+1679496250 vendor/pulp-platform/fpnew/src/fpnew_pkg.sv
+1679496250 vendor/pulp-platform/common_cells/src/delta_counter.sv
+1679496250 vendor/pulp-platform/common_cells/src/counter.sv
+1679496250 vendor/pulp-platform/common_cells/src/exp_backoff.sv
+1679496250 vendor/pulp-platform/common_cells/src/popcount.sv
+1679496250 vendor/pulp-platform/common_cells/src/unread.sv
+1679496250 vendor/pulp-platform/common_cells/src/shift_reg.sv
+1679496250 vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+1679496250 vendor/pulp-platform/common_cells/src/lzc.sv
+1679496250 vendor/pulp-platform/common_cells/src/stream_demux.sv
+1679496250 vendor/pulp-platform/common_cells/src/stream_mux.sv
+1681114602 vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+1679496250 vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+1679496250 vendor/pulp-platform/common_cells/src/lfsr_8bit.sv
+1679496250 vendor/pulp-platform/common_cells/src/lfsr.sv
+1679496250 vendor/pulp-platform/common_cells/src/fifo_v3.sv
+1679496250 vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+1679496250 core/cvxif_example/instr_decoder.sv
+1679496250 core/cvxif_example/cvxif_example_coprocessor.sv
+1679496250 core/cvxif_fu.sv
+1679496250 core/cvxif_example/include/cvxif_instr_pkg.sv
+1679496250 core/include/cvxif_pkg.sv
+1679496250 core/include/instr_tracer_pkg.sv
+1679496250 core/include/axi_intf.sv
+1679496250 core/include/std_cache_pkg.sv
+1679496250 core/include/wt_cache_pkg.sv
+1679496250 core/include/ariane_axi_pkg.sv
+1679496250 core/include/ariane_rvfi_pkg.sv
+1679496250 vendor/pulp-platform/axi/src/axi_pkg.sv
+1679496250 core/include/ariane_pkg.sv
+1679496250 core/include/ariane_dm_pkg.sv
+1679496250 core/include/riscv_pkg.sv
+1679496250 core/include/cv32a6_ima_sv32_fpga_config_pkg.sv
+1679496250 vendor/pulp-platform/fpga-support/rtl/AsyncThreePortRam.sv
+1679496250 vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+1679496250 vendor/pulp-platform/fpga-support/rtl/SyncDpRam.sv
+1681118292 Flist.test
+1468145700 /home/z/program/Synopsys/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+1551421246 /home/z/program/Synopsys/vcs2018/linux64/lib/vcsdp_lite.tab
+4
+1551422344 /home/z/program/Synopsys/vcs2018/linux64/lib/libvirsim.so
+1551421792 /home/z/program/Synopsys/vcs2018/linux64/lib/liberrorinf.so
+1551421768 /home/z/program/Synopsys/vcs2018/linux64/lib/libsnpsmalloc.so
+1551421789 /home/z/program/Synopsys/vcs2018/linux64/lib/libvfs.so
+1681442783 simv.daidir
+-1 partitionlib

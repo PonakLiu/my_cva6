@@ -1,0 +1,374 @@
+{
+    "_vcs_unit__4168410297": [
+        "_vcs_unit__4168410297",
+        "u3Gi2",
+        "module",
+        1
+    ],
+    "lzc_0002": [
+        "lzc_0002",
+        "qprAD",
+        "module",
+        20
+    ],
+    "riscv": [
+        "riscv",
+        "FtHG5",
+        "module",
+        4
+    ],
+    "ariane_dm_pkg": [
+        "ariane_dm_pkg",
+        "K3fxM",
+        "module",
+        5
+    ],
+    "wt_dcache_mem_0000": [
+        "wt_dcache_mem_0000",
+        "SHqst",
+        "module",
+        49
+    ],
+    "csr_regfile": [
+        "csr_regfile",
+        "chDxC",
+        "module",
+        34
+    ],
+    "defs_div_sqrt_mvp": [
+        "defs_div_sqrt_mvp",
+        "BpRsb",
+        "module",
+        29
+    ],
+    "cva6_config_pkg": [
+        "cva6_config_pkg",
+        "QJsi0",
+        "module",
+        3
+    ],
+    "rr_arb_tree_0006": [
+        "rr_arb_tree_0006",
+        "xK5Mz",
+        "module",
+        26
+    ],
+    "lsu_bypass": [
+        "lsu_bypass",
+        "jNCd7",
+        "module",
+        40
+    ],
+    "fifo_v3_0002": [
+        "fifo_v3_0002",
+        "Ax2yd",
+        "module",
+        16
+    ],
+    "axi_pkg": [
+        "axi_pkg",
+        "p9GxR",
+        "module",
+        7
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "ariane_pkg": [
+        "ariane_pkg",
+        "eEMMZ",
+        "module",
+        6
+    ],
+    "lzc_0003": [
+        "lzc_0003",
+        "U0aIr",
+        "module",
+        21
+    ],
+    "ariane_rvfi_pkg": [
+        "ariane_rvfi_pkg",
+        "LiHgg",
+        "module",
+        8
+    ],
+    "rr_arb_tree_0005": [
+        "rr_arb_tree_0005",
+        "GaK59",
+        "module",
+        25
+    ],
+    "ariane_axi": [
+        "ariane_axi",
+        "QDbbt",
+        "module",
+        9
+    ],
+    "wt_cache_pkg": [
+        "wt_cache_pkg",
+        "NMZDt",
+        "module",
+        10
+    ],
+    "rr_arb_tree_0003": [
+        "rr_arb_tree_0003",
+        "JWH1j",
+        "module",
+        24
+    ],
+    "shift_reg_0001": [
+        "shift_reg_0001",
+        "ERAah",
+        "module",
+        27
+    ],
+    "alu_0000": [
+        "alu_0000",
+        "QgKkn",
+        "module",
+        31
+    ],
+    "std_cache_pkg": [
+        "std_cache_pkg",
+        "kiCVI",
+        "module",
+        11
+    ],
+    "instr_tracer_pkg": [
+        "instr_tracer_pkg",
+        "HEzqI",
+        "module",
+        12
+    ],
+    "cvxif_instr_pkg": [
+        "cvxif_instr_pkg",
+        "cNKCI",
+        "module",
+        14
+    ],
+    "cvxif_pkg": [
+        "cvxif_pkg",
+        "As5rk",
+        "module",
+        13
+    ],
+    "cf_math_pkg": [
+        "cf_math_pkg",
+        "N2nk1",
+        "module",
+        15
+    ],
+    "lzc_0000": [
+        "lzc_0000",
+        "rB4Qp",
+        "module",
+        18
+    ],
+    "lfsr_0000": [
+        "lfsr_0000",
+        "U8tdE",
+        "module",
+        17
+    ],
+    "sram_0002": [
+        "sram_0002",
+        "rySNa",
+        "module",
+        59
+    ],
+    "rr_arb_tree_0000": [
+        "rr_arb_tree_0000",
+        "i3P6C",
+        "module",
+        22
+    ],
+    "ex_stage_0000": [
+        "ex_stage_0000",
+        "tmdK7",
+        "module",
+        35
+    ],
+    "lzc_0001": [
+        "lzc_0001",
+        "RJeFR",
+        "module",
+        19
+    ],
+    "commit_stage_0000": [
+        "commit_stage_0000",
+        "NeunD",
+        "module",
+        43
+    ],
+    "id_stage_0000": [
+        "id_stage_0000",
+        "N3JR4",
+        "module",
+        37
+    ],
+    "rr_arb_tree_0002": [
+        "rr_arb_tree_0002",
+        "a7eQj",
+        "module",
+        23
+    ],
+    "fpnew_pkg": [
+        "fpnew_pkg",
+        "ZPW3s",
+        "module",
+        28
+    ],
+    "cva6": [
+        "cva6",
+        "PMm6e",
+        "module",
+        30
+    ],
+    "re_name": [
+        "re_name",
+        "nM5Iq",
+        "module",
+        42
+    ],
+    "branch_unit": [
+        "branch_unit",
+        "AjFIE",
+        "module",
+        32
+    ],
+    "tc_sram_wrapper": [
+        "tc_sram_wrapper",
+        "Bhhjs",
+        "module",
+        56
+    ],
+    "controller": [
+        "controller",
+        "KBY0m",
+        "module",
+        33
+    ],
+    "instr_realign_0000": [
+        "instr_realign_0000",
+        "aYtSU",
+        "module",
+        36
+    ],
+    "btb_0000": [
+        "btb_0000",
+        "dUwfg",
+        "module",
+        45
+    ],
+    "axi_shim": [
+        "axi_shim",
+        "Jdz08",
+        "module",
+        44
+    ],
+    "issue_read_operands_0000": [
+        "issue_read_operands_0000",
+        "dhFVC",
+        "module",
+        38
+    ],
+    "instr_scan": [
+        "instr_scan",
+        "JNDAr",
+        "module",
+        47
+    ],
+    "issue_stage": [
+        "issue_stage",
+        "fCh4F",
+        "module",
+        39
+    ],
+    "mult": [
+        "mult",
+        "SRUFi",
+        "module",
+        41
+    ],
+    "bht_0000": [
+        "bht_0000",
+        "C8ZbP",
+        "module",
+        46
+    ],
+    "wt_dcache_ctrl": [
+        "wt_dcache_ctrl",
+        "ZfZku",
+        "module",
+        48
+    ],
+    "wt_dcache_missunit_0000": [
+        "wt_dcache_missunit_0000",
+        "GM72J",
+        "module",
+        50
+    ],
+    "cva6_icache_0000": [
+        "cva6_icache_0000",
+        "h0g8q",
+        "module",
+        51
+    ],
+    "cva6_mmu_sv32": [
+        "cva6_mmu_sv32",
+        "A9d3r",
+        "module",
+        60
+    ],
+    "instr_tracer_if": [
+        "instr_tracer_if",
+        "KLvSs",
+        "module",
+        54
+    ],
+    "wt_cache_subsystem_0000": [
+        "wt_cache_subsystem_0000",
+        "RbnFb",
+        "module",
+        52
+    ],
+    "wt_axi_adapter": [
+        "wt_axi_adapter",
+        "GTtri",
+        "module",
+        53
+    ],
+    "instr_tracer": [
+        "instr_tracer",
+        "BRZ3S",
+        "module",
+        55
+    ],
+    "tc_sram_wrapper_0000": [
+        "tc_sram_wrapper_0000",
+        "KB7vC",
+        "module",
+        57
+    ],
+    "sram_0000": [
+        "sram_0000",
+        "jJA5K",
+        "module",
+        58
+    ],
+    "cva6_tlb_sv32": [
+        "cva6_tlb_sv32",
+        "bhirm",
+        "module",
+        61
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        62
+    ]
+}

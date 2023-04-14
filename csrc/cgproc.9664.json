@@ -1,0 +1,182 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_9664_archive_1.a",
+            "size": 279474,
+            "objects": [
+                [
+                    "GTtri_d.o",
+                    201560
+                ],
+                [
+                    "ZPW3s_d.o",
+                    77914
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {
+        "KLvSs_d": {
+            "icPath": "csrc"
+        },
+        "cNKCI_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "wt_axi_adapter": {
+            "child_modules": {
+                "rr_arb_tree_0005": 1,
+                "fifo_v3_0002": 3,
+                "axi_shim": 1
+            },
+            "start_perf": [
+                1.1873869895935059,
+                0.00025599999999999999,
+                0.0,
+                246460,
+                246460,
+                1681442780.04966,
+                114105607758405
+            ],
+            "nQuads": 7689,
+            "end_perf": [
+                1.2900559902191162,
+                0.090995000000000006,
+                0.011868,
+                248404,
+                248404,
+                114105863943417,
+                450971566081,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 16271,
+            "nRouts": 503
+        },
+        "cvxif_instr_pkg": {
+            "child_modules": {},
+            "start_perf": [
+                1.3225579261779785,
+                0.123381,
+                0.011972999999999999,
+                248404,
+                248404,
+                1681442780.1848309,
+                114105945019861
+            ],
+            "nQuads": 18,
+            "end_perf": [
+                1.3230559825897217,
+                0.123865,
+                0.011986999999999999,
+                248404,
+                248404,
+                114105946283939,
+                94489280513,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 19,
+            "nRouts": 7
+        },
+        "fpnew_pkg": {
+            "child_modules": {},
+            "start_perf": [
+                1.2900950908660889,
+                0.091031000000000001,
+                0.011873,
+                248404,
+                248404,
+                1681442780.1523681,
+                114105864005211
+            ],
+            "nQuads": 2339,
+            "end_perf": [
+                1.3188769817352295,
+                0.119702,
+                0.01197,
+                248404,
+                248404,
+                114105935867237,
+                180388626433,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 7579,
+            "nRouts": 56
+        },
+        "instr_tracer_if": {
+            "child_modules": {},
+            "start_perf": [
+                1.3189079761505127,
+                0.11973200000000001,
+                0.011972999999999999,
+                248404,
+                248404,
+                1681442780.181181,
+                114105935913217
+            ],
+            "nQuads": 1157,
+            "end_perf": [
+                1.3225319385528564,
+                0.12335500000000001,
+                0.011972999999999999,
+                248404,
+                248404,
+                114105944985123,
+                498216206337,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 1571,
+            "nRouts": 188
+        }
+    },
+    "CompUnits": {
+        "GTtri_d": {
+            "text": 98838,
+            "mod": "wt_axi_adapter",
+            "out": "GTtri_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 201560,
+            "archive": "archive.1/_9664_archive_1.a"
+        },
+        "ZPW3s_d": {
+            "text": 38016,
+            "mod": "fpnew_pkg",
+            "out": "ZPW3s_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 77914,
+            "archive": "archive.1/_9664_archive_1.a"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.12395100000000001,
+            "ru_maxrss_kb": 78584,
+            "ru_stime_sec": 0.011995,
+            "ru_minflt": 3716,
+            "ru_nivcsw": 4,
+            "ru_nvcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0
+        },
+        "cpu_cycles_end": 114105946486463,
+        "peak_mem_kb": 248404
+    }
+}

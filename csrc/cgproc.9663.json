@@ -1,0 +1,204 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_9663_archive_1.a",
+            "size": 414380,
+            "objects": [
+                [
+                    "PMm6e_d.o",
+                    296356
+                ],
+                [
+                    "i3P6C_d.o",
+                    85380
+                ],
+                [
+                    "NeunD_d.o",
+                    32644
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {
+        "rySNa_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "sram_0002": {
+            "child_modules": {
+                "tc_sram_wrapper_0000": 1
+            },
+            "start_perf": [
+                1.3657910823822021,
+                0.17006399999999999,
+                0.0079089999999999994,
+                248404,
+                248404,
+                1681442780.2280641,
+                114106052927195
+            ],
+            "nQuads": 193,
+            "end_perf": [
+                1.366934061050415,
+                0.171156,
+                0.0079600000000000001,
+                248404,
+                248404,
+                114106055800855,
+                515396075521,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 502,
+            "nRouts": 32
+        },
+        "rr_arb_tree_0000": {
+            "child_modules": {},
+            "start_perf": [
+                1.3300199508666992,
+                0.134302,
+                0.0079000000000000008,
+                248404,
+                248404,
+                1681442780.1922929,
+                114105963647551
+            ],
+            "nQuads": 3858,
+            "end_perf": [
+                1.35738205909729,
+                0.161664,
+                0.0079000000000000008,
+                248404,
+                248404,
+                114106031965311,
+                150323855361,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 8810,
+            "nRouts": 176
+        },
+        "cva6": {
+            "child_modules": {
+                "wt_cache_subsystem_0000": 1,
+                "instr_tracer_if": 1,
+                "btb_0000": 1,
+                "bht_0000": 1,
+                "commit_stage_0000": 1,
+                "id_stage_0000": 1,
+                "issue_stage": 1,
+                "instr_scan": 1,
+                "ex_stage_0000": 1,
+                "instr_realign_0000": 1,
+                "csr_regfile": 1,
+                "instr_tracer": 1,
+                "controller": 1
+            },
+            "start_perf": [
+                1.1869409084320068,
+                0.000261,
+                0.0,
+                246460,
+                246460,
+                1681442780.0492139,
+                114105606650731
+            ],
+            "nQuads": 14198,
+            "end_perf": [
+                1.3299899101257324,
+                0.134273,
+                0.0078980000000000005,
+                248404,
+                248404,
+                114105963605975,
+                266287972353,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 30357,
+            "nRouts": 837
+        },
+        "commit_stage_0000": {
+            "child_modules": {},
+            "start_perf": [
+                1.3574090003967285,
+                0.161691,
+                0.0079000000000000008,
+                248404,
+                248404,
+                1681442780.219682,
+                114106032007253
+            ],
+            "nQuads": 1007,
+            "end_perf": [
+                1.3657679557800293,
+                0.170042,
+                0.0079080000000000001,
+                248404,
+                248404,
+                114106052898549,
+                386547056641,
+                0
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 2,
+            "nMops": 2493,
+            "nRouts": 69
+        }
+    },
+    "CompUnits": {
+        "PMm6e_d": {
+            "text": 136074,
+            "mod": "cva6",
+            "out": "PMm6e_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 296356,
+            "archive": "archive.1/_9663_archive_1.a"
+        },
+        "i3P6C_d": {
+            "text": 34906,
+            "mod": "rr_arb_tree_0000",
+            "out": "i3P6C_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 85380,
+            "archive": "archive.1/_9663_archive_1.a"
+        },
+        "NeunD_d": {
+            "text": 15300,
+            "mod": "commit_stage_0000",
+            "out": "NeunD_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 32644,
+            "archive": "archive.1/_9663_archive_1.a"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.171238,
+            "ru_maxrss_kb": 79992,
+            "ru_stime_sec": 0.0079640000000000006,
+            "ru_minflt": 4083,
+            "ru_nivcsw": 7,
+            "ru_nvcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0
+        },
+        "cpu_cycles_end": 114106055986505,
+        "peak_mem_kb": 248404
+    }
+}

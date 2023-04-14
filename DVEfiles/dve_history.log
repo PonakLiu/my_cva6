@@ -1,0 +1,110 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_set_pref_value -category {Globals} -key {smart_resize} -value {false}
+gui_set_pref_value -category {Globals} -key {smart_resize} -value {true}
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_select -id Hier.1 -current_item_name cva6 -current_item_type Scope  -selected  { cva6   }
+gui_use_schematics 
+gui_path_show -objects cva6
+gui_set_pref_value -category {schem_pin_hc} -key {textExtFont} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+gui_zoom -window Schematic.1 -rect { {-14938 -4080} {24964 14106} }
+gui_zoom -window Schematic.1 -rect { {-56452 -51862} {65706 3814} }
+gui_zoom -window Schematic.1 -rect { {-56452 -51862} {65706 3814} }
+gui_list_expand -id  Hier.1   cva6
+gui_list_expand -id  Hier.1   cva6.commit_stage_i
+gui_list_select -id Hier.1 -current_item_name cva6.commit_stage_i -current_item_type Scope  -selected  { cva6.commit_stage_i   }
+gui_use_schematics 
+gui_sch_show -name cva6.commit_stage_i
+gui_zoom -window Schematic.2 -rect { {-14938 -4080} {24964 14106} }
+gui_zoom -window Schematic.2 -rect { {-87210 -113066} {172580 5336} }
+gui_zoom -window Schematic.2 -rect { {-87210 -113066} {172580 5336} }
+gui_zoom -window Schematic.2 -rect { {-87210 -113066} {172580 5336} }
+gui_list_select -id Hier.1 -current_item_name cva6 -current_item_type Scope  -selected  { cva6   }
+gui_use_schematics 
+gui_sch_show -name cva6
+gui_zoom -window Schematic.3 -rect { {-14938 -4080} {24964 14106} }
+gui_zoom -window Schematic.3 -rect { {-142397 -404792} {761260 7063} }
+gui_zoom -window Schematic.3 -rect { {-142397 -404792} {761260 7063} }
+gui_zoom -window Schematic.3 -rect { {-142397 -404792} {761260 7063} }
+gui_close_window -window Console.1
+gui_zoom -window Schematic.3 -full
+gui_zoom -window Schematic.3 -rect { {-47556 -404410} {666248 6554} }
+gui_zoom -window Schematic.3 -rect { {-66139 -415565} {685234 17029} }
+gui_zoom -window Schematic.3 -rect { {-86018 -426830} {704901 28532} }
+gui_zoom -window Schematic.3 -rect { {-106692 -438687} {725854 40641} }
+gui_zoom -window Schematic.3 -rect { {-128719 -451140} {747646 53416} }
+gui_zoom -window Schematic.3 -rect { {-151534 -464804} {770955 66307} }
+gui_zoom -window Schematic.3 -rect { {-129629 -451849} {748933 53971} }
+gui_zoom -window Schematic.3 -rect { {-90069 -429206} {708623 30631} }
+gui_zoom -window Schematic.3 -rect { {-71027 -417760} {689632 20180} }
+gui_zoom -window Schematic.3 -rect { {-52625 -407830} {671813 9255} }
+gui_zoom -window Schematic.3 -rect { {-35353 -395114} {654587 2111} }
+gui_zoom -window Schematic.3 -rect { {-19168 -382276} {637918 -3967} }
+gui_zoom -window Schematic.3 -rect { {29757 -360536} {627108 -16619} }
+gui_zoom -window Schematic.3 -rect { {61863 -346923} {630769 -19383} }
+gui_zoom -window Schematic.3 -rect { {105054 -326714} {622241 -28950} }
+gui_zoom -window Schematic.3 -rect { {134023 -315820} {626583 -32235} }
+gui_zoom -window Schematic.3 -rect { {163452 -308022} {632556 -37942} }
+gui_zoom -window Schematic.3 -rect { {201411 -294360} {627869 -48832} }
+gui_zoom -window Schematic.3 -rect { {226904 -287554} {633055 -53718} }
+gui_zoom -window Schematic.3 -rect { {267760 -271126} {620935 -67791} }
+gui_zoom -window Schematic.3 -rect { {274591 -270867} {610948 -77214} }
+gui_zoom -window Schematic.3 -rect { {281451 -270073} {601791 -85641} }
+gui_zoom -window Schematic.3 -rect { {294841 -264978} {586059 -97313} }
+gui_zoom -window Schematic.3 -rect { {300659 -263928} {578010 -104247} }
+gui_zoom -window Schematic.3 -rect { {306316 -262937} {570459 -110860} }
+gui_zoom -window Schematic.3 -rect { {311593 -262355} {563158 -117520} }
+gui_zoom -window Schematic.3 -rect { {326871 -255625} {545623 -129681} }
+gui_zoom -window Schematic.3 -rect { {331660 -254124} {539996 -134178} }
+gui_zoom -window Schematic.3 -rect { {340927 -249884} {530323 -140842} }
+gui_zoom -window Schematic.3 -rect { {345454 -248228} {525831 -144378} }
+gui_zoom -window Schematic.3 -rect { {350388 -246040} {522176 -147136} }
+gui_zoom -window Schematic.3 -rect { {355493 -243535} {519100 -149340} }
+gui_zoom -window Schematic.3 -rect { {360777 -240161} {516594 -150452} }
+gui_zoom -window Schematic.3 -rect { {366143 -236277} {514540 -150840} }
+gui_zoom -window Schematic.3 -rect { {371315 -232375} {512645 -151006} }
+gui_zoom -window Schematic.3 -rect { {361878 -236458} {510646 -150806} }
+gui_zoom -window Schematic.3 -rect { {351885 -240709} {508484 -150549} }
+gui_zoom -window Schematic.3 -rect { {341384 -245205} {506225 -150301} }
+gui_zoom -window Schematic.3 -rect { {330312 -249927} {503829 -150027} }
+gui_zoom -window Schematic.3 -rect { {318719 -254971} {501368 -149813} }
+gui_zoom -window Schematic.3 -rect { {306536 -259938} {498797 -149246} }
+gui_zoom -window Schematic.3 -rect { {293812 -265161} {496193 -148642} }
+gui_zoom -window Schematic.3 -rect { {280326 -270758} {493359 -148107} }
+gui_zoom -window Schematic.3 -rect { {266258 -276574} {490503 -147468} }
+gui_zoom -window Schematic.3 -rect { {251355 -282737} {487402 -146835} }
+gui_zoom -window Schematic.3 -rect { {235643 -289231} {484113 -146178} }
+gui_zoom -window Schematic.3 -rect { {219156 -296042} {480704 -145459} }
+gui_zoom -window Schematic.3 -rect { {201755 -303146} {477068 -144638} }
+gui_zoom -window Schematic.3 -rect { {201755 -255723} {477068 -97214} }
+gui_zoom -window Schematic.3 -rect { {201755 -208299} {477068 -49791} }
+gui_zoom -window Schematic.3 -rect { {201755 -160876} {477068 -2368} }
+gui_zoom -window Schematic.3 -rect { {201755 -153310} {477068 5198} }
+gui_zoom -window Schematic.3 -rect { {183467 -159983} {473271 6868} }
+gui_zoom -window Schematic.3 -rect { {164330 -167231} {469386 8402} }
+gui_zoom -window Schematic.3 -rect { {125133 -185524} {484023 21102} }
+gui_zoom -window Schematic.3 -rect { {101370 -194336} {479149 23166} }
+gui_zoom -window Schematic.3 -rect { {76356 -203611} {474019 25338} }
+gui_zoom -window Schematic.3 -rect { {25041 -227692} {492879 41659} }
+gui_zoom -window Schematic.3 -rect { {-5952 -239261} {486509 44267} }
+gui_zoom -window Schematic.3 -rect { {-38542 -251491} {479838 46960} }
+gui_zoom -window Schematic.3 -rect { {-73085 -264365} {472579 49794} }
+gui_zoom -window Schematic.3 -rect { {-109234 -277858} {465149 52835} }
+gui_zoom -window Schematic.3 -rect { {-147367 -291940} {457246 56158} }
+gui_schematic_select -id Schematic.3 -type {cell} -parent {cva6} {cva6.i_frontend}
+gui_sch_viewport_backup -id Schematic.3 -type save
+gui_sch_show -window Schematic.3 -name cva6.i_frontend
+gui_zoom -window Schematic.3 -rect { {-17348 -245519} {419186 5810} }
+gui_zoom -window Schematic.3 -rect { {-17348 -245519} {419186 5810} }
+gui_sch_viewport_backup -id Schematic.3 -type restore -action in -pins {} -slct_targets global
+gui_schematic_clear_selection -id Schematic.3
